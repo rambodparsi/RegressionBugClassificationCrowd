@@ -1,9 +1,8 @@
 # Regression Bug Classification — CrowdRE'26
 
 **Replication package for:**
-> *Regression Bugs as Violated Crowd Requirements: A Pilot Study of Post-Release GitHub Issue Reports*
-> 10th International Workshop on Crowd-Based Requirements Engineering (CrowdRE'26)
-> Co-located with RE'26 · Montreal, Canada · August 2026
+> *Regression Bugs in Post-Release GitHub Issue Reports: A Pilot Study*
+
 
 ---
 
@@ -18,32 +17,6 @@ We manually classify 100 issue reports from the **Mastodon v4.3 release family**
 - 20 of 65 confirmed bugs are regression bugs (31%)
 - 90% of confirmed regression bugs have no existing test coverage for the affected behavior
 - Four recurring patterns characterize crowd-detectable regressions invisible to automated test-based approaches
-
----
-
-## Repository Structure
-
-```
-RegressionBugClassificationCrowdRE26/
-│
-├── data/
-│   └── mastodon_v4.3_issues.zip        # 319 issue reports across all v4.3.X patches
-│
-├── guideline/
-│   └── classification_guideline.pdf    # Multi-artifact regression bug classification guideline
-│
-├── results/
-│   ├── annotator_A_classification_results.csv
-│   ├── annotator_B_classification_results.csv
-│   ├── final_consolidated_classification_results.csv
-│   └── regression_bugs_evidence_chain.csv
-│
-├── figures/
-│   ├── approach_overview.png           # Three-step study approach
-│   └── stratified_sampling.png         # Population vs. sample distribution
-│
-└── README.md
-```
 
 ---
 
@@ -212,24 +185,3 @@ Annotation was conducted independently. Disagreements were resolved through stru
 | `figures/stratified_sampling.png` | Stratified sampling population vs. sample distribution |
 
 ---
-
-## Citation
-
-If you use this dataset or guideline in your research, please cite:
-
-```bibtex
-@inproceedings{crowdre2026regression,
-  title     = {Regression Bugs as Violated Crowd Requirements:
-               A Pilot Study of Post-Release {GitHub} Issue Reports},
-  booktitle = {Proc.\ 10th International Workshop on Crowd-Based
-               Requirements Engineering (CrowdRE'26)},
-  year      = {2026},
-  note      = {Co-located with RE'26, Montreal, Canada}
-}
-```
-
----
-
-## License
-
-The classification guideline and annotation results are released under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/). Issue report content is sourced from the [Mastodon GitHub repository](https://github.com/mastodon/mastodon) under its respective open-source license.
