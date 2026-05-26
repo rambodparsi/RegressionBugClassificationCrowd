@@ -170,19 +170,3 @@ Regressions at the boundary between Mastodon's server-side behavior and external
 
 Annotation was conducted independently. Disagreements were resolved through structured consolidation sessions applying the classification guideline criteria.
 
----
-
-## Files
-
-| File | Description |
-|---|---|
-| `data/mastodon_v4.3_issues.zip` | 319 issue reports organized by patch release |
-| `guideline/classification_guideline.pdf` | Full two-stage multi-artifact classification guideline |
-| `results/annotator_A_classification_results.csv` | Independent classification labels from Annotator A (100 issues) |
-| `results/annotator_B_classification_results.csv` | Independent classification labels from Annotator B (100 issues) |
-| `results/final_consolidated_classification_results.csv` | Final ground-truth labels after consolidation (100 issues) |
-| `results/regression_bugs_evidence_chain.csv` | Per-issue evidence chain coverage for 20 confirmed regression bugs |
-| `figures/approach_overview.png` | Three-step study approach diagram |
-| `figures/stratified_sampling.png` | Stratified sampling population vs. sample distribution |
-
----
