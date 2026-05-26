@@ -23,6 +23,7 @@ We manually classify 100 issue reports from the **Mastodon v4.3 release family**
 ## Subject System
 
 **Mastodon** — a federated, open-source social networking platform built on Ruby on Rails and React, communicating via the ActivityPub protocol. Its issue tracker includes reports from end users, server administrators, third-party client developers, and core maintainers, making it a suitable setting for studying crowd-reported regression evidence.
+https://github.com/mastodon/mastodon
 
 ### Issue Collection
 
